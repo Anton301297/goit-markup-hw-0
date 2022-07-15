@@ -1,0 +1,203 @@
+/*  цвет фона белый #FFFFFF */
+/* цвет фона 2 #F5F4FA */
+/* цвет фона 3 #2F303A */
+/* цвет #2196F3 */
+/*  цвет текста основной 212121 */
+/* цвет текста дополнительный 757575 */
+
+/* Стили для index.html */
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+	--primary-bcg-color: #ffffff;
+	--secondary-bcg-color: #f5f4fa;
+	--another-bcg-color: #2f303a;
+}
+body {
+	background-color: #ffffff;
+	color: var(--title-text-color);
+	font-family: "Roboto", sans-serif;
+}
+.navigation-link {
+	color: var(--title-text-color);
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+.link {
+	text-decoration: none;
+}
+.list {
+	list-style: none;
+}
+.part-link {
+	color: var(--accent-color);
+}
+.navigation-list .link {
+	color: var(--title-text-color);
+}
+.navigation-list {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+}
+.navigation-list .link:hover,
+.navigation-list .link:focus {
+	color: var(--accent-color);
+}
+.header-link {
+	color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+	color: var(--accent-color);
+}
+.navigation-list .link.current {
+	color: var(--accent-color);
+}
+/*  Hero */
+.hero {
+	background-color: var(--another-bcg-color);
+}
+.hero-title {
+	color: var(--primary-bcg-color);
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+.btn {
+	background-color: var(--accent-color);
+	color: var(--primary-bcg-color);
+	cursor: pointer;
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+.btn:hover,
+.btn:focus {
+	background-color: #188ce8;
+}
+
+/* Features */
+.features-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.features-text {
+	color: var(--primary-text-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+/* Work */
+.section-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+/* Team */
+.team {
+	background-color: var(--secondary-bcg-color);
+}
+.team-list {
+	background-color: var(--primary-bcg-color);
+}
+.teammates {
+	color: var(--title-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.team-text {
+	color: var(--primary-text-color);
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+/* Footer */
+.footer {
+	background-color: var(--another-bcg-color);
+}
+.footer-part-link {
+	color: var(--primary-bcg-color);
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+}
+.footer-link {
+	color: #ffffff99;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+.footer-link:hover,
+.footer-link:focus {
+	color: var(--accent-color);
+}
+.footer-address-link {
+	color: var(--primary-bcg-color);
+}
+.footer-address-link:hover,
+.footer-address-link:focus {
+	color: var(--accent-color);
+}
+/* Стили для portfolio.html */
+.button {
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+	color: var(--primary-bcg-color);
+	background-color: var(--accent-color);
+}
+.projects-list .title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--title-text-color);
+}
+.projects-list .text {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
